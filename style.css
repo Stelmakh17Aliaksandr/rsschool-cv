@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    width: device-width;
+    text-align: center;
+    background-color: #8ddee4;
+
+}
+.center {
+    align-content: center;
+    background-color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+    padding: 1em;
+    margin: 0% 20%;
+    overflow: hidden;
+}
+.img1 {
+    border-radius: 1em;
+    width:30%
+
+}
+
+td {
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(13, 187, 218);
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 1em;
+    margin: 0% 20%;
+    overflow: hidden;
+}
+
+article {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    text-align: left;
+}
+
+contacts {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rsschool {
+    width: 10rem;
+}
